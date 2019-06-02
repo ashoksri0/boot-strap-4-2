@@ -11,36 +11,34 @@
     <title>Document</title>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light pad-top-50">
-            <div class="container">
-                <a class="navbar-brand logo" href="#">
-                    <img src="img/mlogo.png" class="logo-img">
-                    <h3 class="d-inline">Mizuxe</h3>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"> About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"> Meet The Authors</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"> Contact</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pad-top-50 fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="img/mlogo.png" class="logo-img">
+                <h3 class="d-inline">Mizuxe</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Meet The Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <section id="section-primary">
         <div class="primary-overlay text-white">
             <div class="container">
@@ -52,6 +50,128 @@
                     </div>
                     <div class="col-lg-6">
                         <img src="img/book.png" alt="" class="img-fluid d-none d-lg-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-form" class="bg-dark text-white">
+        <div class="pt-5">
+            <div class="container">
+                <form class="form-inline" action="#">
+                    <div class="row">
+                        <div class="form-group col-4  ">
+                            <input type="email" class="form-control " id="email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group col-4  ">
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group col-4  ">
+                            <input type="button" id="section-form-submit" class="btn btn-default text-white"
+                                value="Subscribe" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="section-details" class="bg-white">
+        <div class="container p-5">
+            <div class="card-deck">
+                <div class="card card-odd">
+                    <div class="card-body text-center">
+                        <h3 class="">Be Better</h3>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet,
+                            deserunt.</p>
+                    </div>
+                </div>
+                <div class="card card-even">
+                    <div class="card-body text-center">
+                        <h3 class="">Be Smarter</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+                    </div>
+                </div>
+                <div class="card card-odd">
+                    <div class="card-body text-center">
+                        <h3 class="">Be Faster</h3>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet,
+                            deserunt.</p>
+                    </div>
+                </div>
+                <div class="card card-even">
+                    <div class="card-body text-center">
+                        <h3 class="">Be Stronger</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="why-section" class="bg-light text-center">
+        <div class="container">
+            <div class="info">
+                <h1 class="text-base ">Why This Book?</h1>
+                <p class="lead">Lorem ipsum carrots enhanced rebates. Hence we can not shun been blinded by the pain of
+                    things, other debts?</p>
+                <hr class="muted-line">
+            </div>
+            <div id="accordion">
+                <div class="card ">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link text-dark font-12-bold accordian-click" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa fa-arrow-circle-down text-dark"></i>  Get Inspired
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit laborum qui, debitis,
+                            sequi dolores nobis mollitia labore quasi earum laboriosam nihil cupiditate magnam iusto
+                            nostrum doloremque accusantium repudiandae expedita autem et, repellendus suscipit
+                            consequatur! Alias, maiores amet sunt ab inventore illo, deleniti facilis consequatur
+                            tenetur nam pariatur fuga nisi!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-dark font-12-bold accordian-click" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-arrow-circle-down text-dark"></i> Gain The Knowledge
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit laborum qui, debitis,
+                            sequi dolores nobis mollitia labore quasi earum laboriosam nihil cupiditate magnam iusto
+                            nostrum doloremque accusantium repudiandae expedita autem et, repellendus suscipit
+                            consequatur! Alias, maiores amet sunt ab inventore illo, deleniti facilis consequatur
+                            tenetur nam pariatur fuga nisi!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-dark font-12-bold accordian-click" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fa fa-arrow-circle-down text-dark "></i>  Open Your Mind
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit laborum qui, debitis,
+                            sequi dolores nobis mollitia labore quasi earum laboriosam nihil cupiditate magnam iusto
+                            nostrum doloremque accusantium repudiandae expedita autem et, repellendus suscipit
+                            consequatur! Alias, maiores amet sunt ab inventore illo, deleniti facilis consequatur
+                            tenetur nam pariatur fuga nisi!
+                        </div>
                     </div>
                 </div>
             </div>
