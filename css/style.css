@@ -1,31 +1,32 @@
 body {
-    margin-top: 105px; }
-.logo-img
-{
-    width: 50px;
-    height: 50px;  
+    margin-top: 105px;
 }
 
-.pad-top-50
-{
-    padding: 18px 0px; 
+.logo-img {
+    width: 50px;
+    height: 50px;
 }
-.pb-5, .py-5 {
+
+.pad-top-50 {
+    padding: 18px 0px;
+}
+
+.pb-5,
+.py-5 {
     padding-bottom: 3rem !important;
 }
+
 li.nav-item {
     margin-right: 20px;
 }
 
-#section-primary
-{
+#section-primary {
     background: url(../img/mountains.jpg);
-    position: relative; 
-    min-height: 600px; 
+    position: relative;
+    min-height: 600px;
 }
 
-#section-primary .primary-overlay
-{
+#section-primary .primary-overlay {
     background: rgba(50, 146, 166, 0.8);
     position: absolute;
     top: 0;
@@ -34,89 +35,74 @@ li.nav-item {
     height: 100%
 }
 
-.font-12
-{
+.font-12 {
     font-size: 20px;
 }
 
-
-.font-12-bold
-{
+.font-12-bold {
     font-weight: bold;
     font-size: 20px;
 }
 
-#section-form
-{
+#section-form {
     height: 130px;
 }
- 
 
-#section-form .row
-{
+#section-form .row {
     width: 100%
 }
 
-#section-form input
-{
+#section-form input {
     width: 100% !important
 }
-#section-details
-{
-    height: 280px;
-} 
 
-#section-form-submit
-{
+#section-details {
+    height: 280px;
+}
+
+#section-form-submit {
     background-color: #59A7B6;
 }
 
-#section-form-submit:hover
-{
+#section-form-submit:hover {
     background-color: #3292A6;
 }
 
-.card-odd 
-{ 
-     color: #3292A6;
-     width: 50px;
+.card-odd {
+    color: #3292A6;
+    width: 50px;
     /* box-sizing: border-box */
     border: #3292A6 1px solid
-    
-} 
+}
 
-.card-even
-{ 
+.card-even {
     color: white;
     background-color: #3292A6;
     width: 50px;
     /* box-sizing: border-box */
 }
 
-#why-section
-{
+#why-section {
     padding-top: 50px;
     min-height: 600px;
 }
 
-.text-base
-{
+.text-base {
     color: #3292A6;
 }
-.info
-{ 
+
+.info {
     width: 50%;
     margin: 0px 260px;
 }
 
-.muted-line
-{
+.muted-line {
     border-top: 1px solid #DDDDDD;
     margin: 30px 0px;
-} 
+}
 
-.accordian-click
-{
-display: block !important;
-width: 100% !important;
+.accordian-click {
+    display: block !important;
+    width: 100% !important;
+    cursor: default !important;
 }
